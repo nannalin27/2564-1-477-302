@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script>
+        var current_age = 0;
+       function cal_age() {
+           // var current_year_eng = 2021;
+           // var birth_year_eng = 2000;
+           // var Current_year_th = 2564;
+           // var Birth_year_th = 2540;
+           /*var current_Year = 2560;
+           var birth_Year = 2530; */
+           current_age = current_year - Birth_year;
+           console.log(current_age);
+       }
+       function alert_age() {
+           cal_age();
+           alert(current_age);
+       }
+    </script>
+</head>
+<body>
+    <input type="button" value="Calculate Age" onclick="alert_age();">
+</body>
+</html>
