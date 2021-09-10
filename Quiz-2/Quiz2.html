@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <meta name="description" content="DESCRIPTION">
+    <link rel="stylesheet" href="PATH">
+    <script>
+    function clickCounter() {
+        if(typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount) {
+                localStorage.clickcount = Number(localStorage.clickcount)+1;
+            } else {
+                localStorage.clickcount = 1;
+            }
+            document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+        }
+    }
+    </script> 
+    <style>
+        { color: #ffaa33; font-family: 'Maitree', serif;
+       font-size: 3em; }
+       h1 { font-weight: normal; text-align: center;}
+       p { font: normal 2em; }
+   </style>
+    <style type="text/css">
+        body {
+          font-family: Georgia, "Times New Roman",
+          Times, serif;
+          color: rgb(14, 11, 12); 
+          background-color:lightblue;margin: 60px;padding-left: 20px; }
+          ul.navbar {
+          position: absolute;
+          top: 1em;
+          left: 1em;
+          width: 9em }
+          h1 {
+          font-family: Helvetica, Geneva, Arial,
+              SunSans-Regular, sans-serif }
+    </style>  
+</head>
+<body>
+    <div class="box">
+        <h1>ANIME</h1> 
+        <hr>
+        <dialog open>
+            <a class="button" href="https://animekimi.com/" target="_blank" style="background-color: lightgray;">ไปดูอนิแมะกัน!!!!!! </a>
+        </dialog>   
+        <div class="two_header">
+            <div class="text_two_header">
+              <div class="text_text_two_header">
+                  <p class="hader_text">Anime For You</p>
+                  <p class="mid_text">Let Go!!!</p>
+                  <div style="border: medium none; background: #d16178 none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Kamisama Hajimemashita </div> 
+                  
+                  <!-- image -->
+      <img src="images/1.gif" alt="my picture">
+  
+                  <p class="bottom_text">เรื่องราวของโมโมโซโนะ นานามิ หญิงสาวนักเรียนม.ปลายที่กำลังตกอยู่ในช่วงเวลาที่ยากลำบาก 
+                    เนื่องจากคุณพ่อของเธอหนีไปเพราะเป็นหนี้การพนันและหนี้ที่สะสมจำนวนมหาศาล 
+                    ทำให้เธอถูกไล่ออกจากอพาร์ตเมนต์ที่อาศัยอยู่ จนกลายเป็นคนไร้บ้าน
+                    อยู่มาวันหนึ่งในสวนสาธารณะนานามิได้พบกับมิคาเงะชายหนุ่มท่าทางน่าสงสัย
+                    มาปรากฏตัวต่อหน้าเธอแล้วบอกว่า"ผมจะยกบ้านของผมให้"
+                    นานามิหลงเชื่อคำพูดนั้น เธอไปตามที่อยู่ที่ได้มา ก็พบว่ามันเป็นเพียงศาลเจ้าร้าง 
+                    แถมในศาลเจ้านั้นยังมีโทโมเอะเทพจิ้งจอกหนุ่มอาศัยอยู่ดังนั้นนานามิจึงได้ศาลเจ้ามาเป็นบ้าน 
+                    แต่ต้องแลกกับการทำงานและหน้าที่ของเทพเจ้าไปด้วย....
+                    นานามินั้นไม่ค่อยชอบนิสัยโทโมเอะที่เอาแต่บ่น ภูติรับใช้จึงให้คำแนะนำว่า ถ้าเธอได้ทำสัญญากับโทโมเอะ
+                    เขาจะเชื่อฟังเธอ แต่ในเมื่อทั้งคู่ไม่ถูกชะตาแล้วเรื่องการทำสัญญานั้นจะเป็นเช่นไร!!!</p>
+                        <div class="undre_text">
+                          <div style="border: medium none; background: #33b5cc none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Tokyo Ghoul </div> 
+                  
+                          <!-- image -->
+      <img src="images/2.gif" alt="my picture">
+          
+                  <p class="bottom_text">คาเนกิ เคน นักศึกษามหาลัยธรรมดาที่ชอบอ่านหนังสือเป็นชีวิตจิตใจ โดยเขาได้พบกับ คามิชิโระ ริเสะ ในร้านคาเฟ่ อันเทย์คุ ที่ชอบไปประจำ เพราะความชอบที่เหมือนกันทำให้ทั้งคู่สนิทกันได้เร็ว แต่แล้วคืนหนึ่งชีวิตของคาเนกิก็ต้องเปลี่ยนไปตลอดกาล เมื่อความจริงแล้วริเสะคือ กูล สิ่งมีชีวิตที่กินมนุษย์เป็นอาหารนั่นเอง</p>
+                        <div class="undre_text">
+                          <div style="border: medium none; background: #ff0062 none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Attack on Titan </div> 
+                  
+                                  <!-- image -->
+      <img src="images/3.gif" alt="my picture">
+                  
+                  <p class="bottom_text">เรื่องราวในปี ค.ศ. 845 เมื่อมวลมนุษยชาติต้องเผชิญกับชะตากรรมซ้ำรอยเดิมอีกครั้ง เมื่อ ไททัน ศัตรูขนาดมหึมาที่มาพร้อมกับพลังมหาศาล ได้กลับมาปรากฏตัวและจู่โจมมนุษยชาติ ภายหลังจากสร้างกำแพงเมืองปกป้องตัวเองถึง 3 ชั้นและอยู่อย่างสงบสุขเรื่อยมากว่า 100 ปี ส่งผลให้มนุษย์ต้องเผชิญวิกฤตที่สุ่มเสี่ยงต่อการสูญสิ้นเผ่าพันธุ์ เมื่อเหล่าไททันที่อดอยากมากว่า 100 ปี ได้ออกอาละวาดจับผู้คนเป็นอาหาร จนให้กำแพงเมืองชั้นนอกสุด ได้แก่ “วอลล์มาเรีย” ถูกทำลายลง และมนุษยชาติต้องสูญเสียประชากรไปกว่าละ 20 รวมถึงพื้นที่ 1 ใน 3 ของทั้งหมด
+                                    และหนึ่งในการสูญเสียครั้งนั้น ก็รวมไปถึงครอบครัวของ “เอเรน เยเกอร์” เด็กชายที่ต้องสูญเสียแม่อันเป็นที่รักไป พร้อมกับความลับในห้องใต้ดินที่พ่อซึ่งเป็นหมอของเขาได้ทิ้งให้ไว้ พร้อมกุญแจดอกหนึ่ง ก่อนหายสาบสูญไป เอเรนเผชิญกับความเครียดแค้นอย่างที่ไม่เคยเป็นมาก่อน จึงได้ตั้งปณิธานว่าตนเองจะต้องเข้าร่วมทีมสำรวจให้ได้ และจะกำจัดเหล่าไททันให้สูญสิ้นให้หมด!!</p>
+                        <div class="undre_text">
+                          <div style="border: medium none; background: #09fa51 none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Moriarty the Patriot</div> 
+                  
+                                          <!-- image -->
+      <img src="images/5.gif" alt="my picture">
+                          
+                  <p class="bottom_text">ศตวรรษที่ 19 ท่ามกลางการปฏิวัติอุตสาหกรรม เป็นช่วงเวลาที่อังกฤษกำลังขยายอำนาจอย่างยิ่งใหญ่ ทว่าในเบื้องหลังของความก้าวหน้าทางเทคโนโลยีนั้น ก็มีระบบลำดับชั้นอันเก่าแก่ที่ทำให้ขุนนางซึ่งมีจำนวนไม่ถึง 3 เปอร์เซ็นของประชากรทั้งหมดปกครองประเทศอยู่ เหล่าขุนนางที่ยึกครองสิทธิพิเศษราวกับเป็นเรื่องปกติ และชนชั้นล่างที่ต้องหาเช้ากินค่ำ ผู้คนนั้นไม่ว่าใครต่างก็ต้องใช้ชีวิตอยู่ภายในระบอบลำดับชั้นที่ถูกกำหนดตั้งแต่ถือกำเนิดมา
+                                            วิลเลี่ยม เจมส์ มอริอาร์ตี้ ได้เริ่มเคลื่อนไหวเพื่อที่จะทำลายระบอบชนชั้นพิเศษที่เน่าเฟะ และสร้างประเทศในอุดมคติขึ้นมา มอริอาร์ตี้ “เจ้าแห่งอาชญากร” ที่สามารถหลอกลวงได้แม้กระทั่งเชอร์ล็อค โฮล์มส์ กำลังจะเปลี่ยนโลกใบนี้ด้วยการปฏิวัติโดยอาชญากรรม…</p>
+                        <class="undre_text">
+                         <div style="border: medium none; background: #d4e027 none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Jujutsu Kaisen </div> 
+                  
+                                                  <!-- image -->
+      <img src="images/6.gif" alt="my picture">
+                                  
+                  <p class="bottom_text">อิตาโดริ ยูจิ นักเรียนมัธยมปลายที่มีสมรรถภาพร่างกายสูงแต่เลี่ยงกีฬามาอยู่กลุ่มเหนือธรรมชาติ หลังปู่ที่นอนป่วยในโรงพยาบาล ก่อนตายได้ฝากให้เขาคิดถึงการช่วยผู้อื่นและตายอย่างเหมาะสม เขาได้มาพัวพันกับ “วัตถุต้องสาป” ที่ทำให้สัตว์ประหลาดปรากฏตัว ยูจิ และกลืนนิ้วต้องสาปเข้าไปเพื่อช่วยเพื่อน แต่พลังคำสาปของนิ้วเทพอสูร เรียวเมนสุคุนะกลับไม่สามารถควบคุมร่างเขาได้ ทำให้กลุ่มสมาคมตั้งใจให้เขารวบรวมนิ้วต้องคำสาปของเทพอสูร โดยให้เขามาเรียนที่โรงเรียนในโตเกียว หวังให้เขารวบรวมนิ้วของสุคุนะทั้งหมดได้ครบ แล้วค่อยกำจัด ยูจิ ในภายหลัง</p>
+                        <class="undre_text">
+                         <div style="border: medium none; background: #dd933e none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;"> Kakegurui </div> 
+                  
+                                                          <!-- image -->
+      <img src="images/7.gif" alt="my picture">
+                                          
+                  <p class="bottom_text">เรื่องราวกล่าวถึง “โรงเรียนเอกชนเฮียคคะโอ” ที่มีกฎกติกาการควบคุมเหล่านักเรียนด้วยการ “เล่นการพนัน” เพื่อแบ่งชนชั้นภายในโรงเรียน  โดยผู้ที่ชนะการพนันนั้นจะมีสิทธิที่เหนือกว่าผู้ที่แพ้การพนัน  และสามารถกระทำอะไรต่อผู้แพ้ก็ได้  ซึ่งในโรงเรียนนี้เอง… “จาบามิ ยูเมะโกะ” เด็กสาวปริศนาได้ย้ายเข้ามาเรียนต่อที่นี่</p>
+                        <class="undre_text">
+                         <div style="border: medium none; background: #334fcf none repeat scroll 0% 0%; width: 350px; height: auto; text-align: center;">Charlotte </div> 
+                  
+                                                                  <!-- image -->
+      <img src="images/8.gif" alt="my picture">
+                                                  
+                  <p class="bottom_text"> เรื่องราวของ ยู โอโตซากะ เด็กหนุ่มมัธยมปลายผู้ใช้ชีวิตอยู่กับน้องสาวเพียงลำพังสองคน และมีความสามารถพิเศษในเข้าสิงผู้อื่นได้ภายในข้อจำกัดของเวลา 5 วินาที โดยที่จะต้องไม่มีสิ่งกีดขวางใดๆ และด้วยความสามารถที่เขาเชื่อว่า มีเพียงเขาคนเดียวที่ได้ครอบครองพลังนี้เอง ทำให้เขานำมาใช้เพื่อหาประโยนชน์เข้าตัวเอง ทั้งกับเรื่องแก้แค้นคนที่ไม่ชอบหน้า, ปลดปล่อยความหื่นของตัวเองโดยการเข้าสิงสาวๆ เพื่อแอบดูชั้นใน หรือแม้กระทั่ง “เรื่องเรียน” ที่ใช้กลยุทธ์เข้าสิงเพื่อนข้างๆ ในการโกงข้อสอบจนในที่สุดเขาก็สามารถก้าวขึ้นเป็นอันดับหนึ่งของโรงเรียนเดิม และสอบเข้าโรงเรียนอันดับหนึ่งของเมืองได้สำเร็จ</p>
+                        <class="undre_text">
+        <p>Click the button</p>
+        <button onclick="getLocation()">Try It</button>
+        <p id="demo">Result</p>
+    
+        <script>
+          var x = document.getElementById("demo");
+          function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+          }
+    
+          function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+          }
+    
+          function showError(error) {
+            switch(error.code) {
+              case error.PERMISSION_DENIED:
+                  x.innerHTML = "User denied the request for Geolocation."
+                  break;
+              case error.POSITION_UNAVAILABLE:
+                  x.innerHTML = "Location information is unavailable."
+                  break;
+              case error.TIMEOUT:
+                  x.innerHTML = "The request to get user location timed out."
+                  break;
+              case error.UNKNOWN_ERROR:
+                  x.innerHTML = "An unknown error occurred."
+                  break;
+              }
+          }
+        </script>
+    </div>
+
+    <h2>เข้าสู่ระบบ</h2>
+    <from method="GET" action="check_longin.html">
+        <input type="text" id="username">
+        <br>
+        <label for="passwd"รหัสผ่าน></label>
+        <input type="password"  id="passwd">
+        <input type="checkbox" id="จำรหัสผู้ใช้งาน">
+        <br>
+        <input type="radio" name="user_type">ผู้ใช้ใหม่
+        <input type="radio" name="user_type">ผู้ใช้เดิม
+        <br>
+        <label for="desc">รายละเอียด</label>
+        <textarea id="desc" rows="3"></textarea>
+        <br>
+        <input type="file">
+        <br>
+        <select name="type">สถานะ
+            <option value="1">ใช้งาน</option>
+            <option value="0">ยกเลิก</option>
+        </select>
+        <br>
+        <input type="submit" value="เข้าสู่ระบบ">
+        <input type="reset" value="ยกเลิก">
+        
+    </from>
+    <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+    <div id="result"></div>
+ 
+
+</body>
+</html>
